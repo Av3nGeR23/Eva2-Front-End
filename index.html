@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Prueba Front-End</title>
+  <link href="estilos.css" rel='stylesheet'/>
+  <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
+  <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/smoothness/jquery-ui.css"> 
+</head>
+<body>
+  <div class="header">
+    <div class="search-bar">
+      <i class="bi bi-house"></i>
+      <a href="https://www.inacap.cl/tportalvp/intranet-alumno">
+        <button class="btn btn-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+          </svg> HOME
+        </button>
+      </a>
+      <a href="https://portales.inacap.cl/">
+        <button class="btn-contact">
+          </svg> QUIENES SOMOS
+        </button>
+      </a>
+      <a href="https://www.youtube.com/watch?v=Wi8zGmkz6N0&ab_channel=DEVILYOUTUBE">
+        <button class="btn-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+          </svg> CONTACTANOS
+        </button>
+      </a>
+      <a href="https://www.youtube.com/watch?v=3GymExBkKjE&ab_channel=MoureDevbyBraisMoure">
+        <button class="btn-contact">
+          </svg> OTROS
+        </button>
+      </a>
+    </div>
+  </div>
+  
+
+    <div class="logo"></div>
+      <img src="IMG/logo-inacap.png" width="400px"><alt ="LOGO-INACAP"></alt>
+    </a>
+    </div>
+  <H1>Landing Page, Prueba 2 Programacion</H1>
+  <p>En esta pagina veremos todo lo visto hasta el semestre  y algunas cositas mas </p>
+  <br><hr>
+  <div class="contenedor">
+    <div class="contenedor-tabla">
+        <table>
+            <thead>
+                <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Carrera</th>
+                <th>Edad</th>
+                <th>Imagen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Andres</td>
+                <td>Gajardo</td>
+                <td>Analista y Programacion</td>
+                <td>30</td>
+                <td><button onclick="mostrarImagen('https://preview.redd.it/one-piece-wano-style-lora-model-released-link-in-comment-v0-9xkjin1k54ba1.png?width=1024&format=png&auto=webp&v=enabled&s=7da0f5040babbf3e1a2fc09cc4714777f93b37e6')">Ver imagen</button></td>
+                </tr>
+                <tr>
+                <td>Hector</td>
+                <td>Cano</td>
+                <td>Analista y Programacion</td>
+                <td>34</td>
+                <td><button onclick="mostrarImagen('https://pm1.narvii.com/6967/f83a86a5e82a2e22c3ef5174f3865ff62043fdabr1-1073-2048v2_hq.jpg')">Ver imagen</button></td>
+                </tr>
+                <tr>
+                <td>Matias</td>
+                <td>Mendoza</td>
+                <td>Analista y Programacion</td>
+                <td>27</td>
+                <td><button onclick="mostrarImagen('https://anime.atsit.in/es/wp-content/uploads/2022/08/en-que-episodio-sabo-come-la-fruta-flame-flame-1.jpg')">Ver imagen</button></td>
+                </tr>
+                <tr>
+                <td>Guido</td>
+                <td>Soto</td>
+                <td>Analista y Programacion</td>
+                <td>30</td>
+                <td><button onclick="mostrarImagen('https://pm1.narvii.com/7673/989a71701f1be79b4b8363848da2deae0159f436r1-507-1129v2_hq.jpg')">Ver imagen</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+  <div class="contenedor-lista-con-borde">
+    <ul class="mi-lista">
+      <h1>Lista de ramos de este Semestre</h1>
+      <li>Base de Datos No Relacionales</li>
+      <li>Programacion Front End</li>
+      <li>Diseno de Sistemas</li>
+      <li>Prueba de Software</li>
+      <li>Ingles</li>
+      <img src="IMG/ecc-cloudconsole.png" alt="Imagen Computadora">
+    </ul>
+  </div>
+  <button onclick="mostrarPopup()" style="position: fixed; bottom: 0; left: 0;">Mostrar formulario</button>
+  <div id="formulario" style="display:none;">
+    <button onclick="cerrarPopup()" style="position: absolute; top: 0; right: 0; margin: 10px;">X</button>
+    <form action="formulario" class="mi-formulario" method="POST">
+      <h5>Si quieres comunicarte conmigo, enviame un mensaje</h5>
+
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre"><br>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br>
+      
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje"></textarea><br>
+      <a href="formulario.html" target="_blank">
+        <input type="button" value="Enviar">
+      </a>
+    </form>
+  </div>
+  
+
+  
+<footer>
+  <div class="footer-container">
+    <div class="developer-info">
+      <h3>Desarrollado por:</h3>
+      <p><strong>Nombre:</strong> Andres Gajardo M</p>
+      <p><strong>Email:</strong> a.gajardo23@hotmail.com</p>
+      <p><strong>Teléfono:</strong> +569 93427198</p>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row" style="display: flex; flex-direction: column; align-items: flex-end;">
+      <div class="col-md-6" style="text-align:right;">
+        <p style="margin-right: 50px;">¡Sígueme en mis redes sociales!</p>
+      </div>
+      
+      <div class="col-md-6 d-flex align-items-center justify-content-end">
+        <a href="https://www.linkedin.com/in/andres-gm92/" target="_blank" style="margin-right: 10px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+          </svg>
+        </a>
+        <a href="https://github.com/Av3nGeR23?tab=repositories" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+        </a>
+      </div>
+    </div>   
+          </footer>
+
+</body>
+</html>
